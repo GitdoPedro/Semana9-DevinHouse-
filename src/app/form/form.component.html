@@ -1,0 +1,50 @@
+<form class ="shadow-lg p-3 mb-5 bg-white rounded mt-5">
+    <h5 class ="d-flex justify-content-center mb-4">Formulário de registro de matérias</h5>
+    <div class="form-group row">
+      <label for="nome" class="col-sm-2 col-form-label">Nome</label>
+      <div class="col-sm-10">
+      <input type="text" class="form-control mb-4" id="nome">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="carga" class="col-sm-2 col-form-label">Carga Horária</label>
+      <div class="col-sm-10">
+      <input type="number" class="form-control mb-4" id="carga">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="escola" class="col-sm-2 col-form-label">Escola</label>
+      <div class="col-sm-10">
+      <input type="text" class="form-control mb-4" id="escola">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label">Professor:</label>
+      <div class="col-sm-10">
+        <select class="form-control mb-4">
+          <option>Otávio</option>
+          <option>Vivian</option>
+          <option>Leandro</option>
+          <option>Cláudia</option>
+        </select>
+      </div>
+      </div>
+      <div class="form-group row mb-4">
+        <label for="Opcional" class="col-sm-2 col-form-label">Opcional</label>
+        <div class="col-sm-10">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+            <label class="form-check-label" for="inlineRadio1">Sim</label>
+          </div>
+          
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
+            <label class="form-check-label" for="inlineRadio2">Não</label>
+          </div>
+        </div>
+      </div>
+      <div class = "d-flex justify-content-end">
+
+        <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Enviar</button>
+      </div>
+  </form>
