@@ -1,7 +1,7 @@
-<div class="card " style="width: 18rem;margin-top: 20px;">
+<div *ngFor="let personagem of personagens" class="card " style="width: 18rem;margin-top: 20px;">
     <img class="card-img-top" src={{personagem.imagem}} alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">{{personagem.nome}}</h5>
+      <h5 class="card-title"><app-dados-card></app-dados-card></h5>
       <h6 class="card-title">Nome do Ator : {{personagem.nomeAtor}}</h6>
       <p class="card-text">{{personagem.descricao}}</p>
       </div>
