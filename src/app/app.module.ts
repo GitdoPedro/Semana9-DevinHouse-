@@ -6,6 +6,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FormComponent } from './form/form.component';
 import { ModalComponent } from './modal/modal.component';
 import { ItemCardComponent } from './item-card/item-card.component';
+import { FormsModule } from '@angular/forms';
+import { DadosCardComponent } from './item-card/dados-card/dados-card.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,12 @@ import { ItemCardComponent } from './item-card/item-card.component';
     NavbarComponent,
     FormComponent,
     ModalComponent,
-    ItemCardComponent
+    ItemCardComponent,
+    DadosCardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
